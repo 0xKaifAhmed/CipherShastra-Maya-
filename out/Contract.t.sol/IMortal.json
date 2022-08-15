@@ -1,0 +1,868 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "deadYet",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "deadYet()": "94555a65"
+  },
+  "ast": {
+    "absolutePath": "test/Contract.t.sol",
+    "id": 21335,
+    "exportedSymbols": {
+      "DSTest": [
+        1786
+      ],
+      "IMortal": [
+        21288
+      ],
+      "IUnDeAD": [
+        21282
+      ],
+      "Mortal": [
+        21030
+      ],
+      "Script": [
+        1818
+      ],
+      "StdStorage": [
+        3235
+      ],
+      "Test": [
+        3137
+      ],
+      "TestUndead": [
+        21334
+      ],
+      "Vm": [
+        4894
+      ],
+      "console": [
+        12958
+      ],
+      "console2": [
+        21022
+      ],
+      "stdError": [
+        3207
+      ],
+      "stdMath": [
+        4472
+      ],
+      "stdStorage": [
+        4325
+      ],
+      "undead": [
+        21271
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "0:1246:7",
+    "nodes": [
+      {
+        "id": 21273,
+        "nodeType": "PragmaDirective",
+        "src": "0:23:7",
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 21274,
+        "nodeType": "PragmaDirective",
+        "src": "24:33:7",
+        "literals": [
+          "experimental",
+          "ABIEncoderV2"
+        ]
+      },
+      {
+        "id": 21275,
+        "nodeType": "ImportDirective",
+        "src": "58:39:7",
+        "absolutePath": "lib/forge-std/src/Test.sol",
+        "file": "../lib/forge-std/src/Test.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 21335,
+        "sourceUnit": 4473,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 21276,
+        "nodeType": "ImportDirective",
+        "src": "98:24:7",
+        "absolutePath": "src/UnDeAD.sol",
+        "file": "src/UnDeAD.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 21335,
+        "sourceUnit": 21272,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 21282,
+        "nodeType": "ContractDefinition",
+        "src": "124:71:7",
+        "nodes": [
+          {
+            "id": 21281,
+            "nodeType": "FunctionDefinition",
+            "src": "148:45:7",
+            "functionSelector": "81d9632b",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "deadOrAlive",
+            "nameLocation": "157:11:7",
+            "parameters": {
+              "id": 21279,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 21278,
+                  "mutability": "mutable",
+                  "name": "_addr",
+                  "nameLocation": "177:5:7",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 21281,
+                  "src": "169:13:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 21277,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "169:7:7",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "168:15:7"
+            },
+            "returnParameters": {
+              "id": 21280,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "192:0:7"
+            },
+            "scope": 21282,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IUnDeAD",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          21282
+        ],
+        "name": "IUnDeAD",
+        "nameLocation": "134:7:7",
+        "scope": 21335,
+        "usedErrors": []
+      },
+      {
+        "id": 21288,
+        "nodeType": "ContractDefinition",
+        "src": "197:77:7",
+        "nodes": [
+          {
+            "id": 21287,
+            "nodeType": "FunctionDefinition",
+            "src": "221:51:7",
+            "functionSelector": "94555a65",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "deadYet",
+            "nameLocation": "230:7:7",
+            "parameters": {
+              "id": 21283,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "237:2:7"
+            },
+            "returnParameters": {
+              "id": 21286,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 21285,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 21287,
+                  "src": "263:7:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 21284,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "263:7:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "262:9:7"
+            },
+            "scope": 21288,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IMortal",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          21288
+        ],
+        "name": "IMortal",
+        "nameLocation": "207:7:7",
+        "scope": 21335,
+        "usedErrors": []
+      },
+      {
+        "id": 21334,
+        "nodeType": "ContractDefinition",
+        "src": "504:432:7",
+        "nodes": [
+          {
+            "id": 21291,
+            "nodeType": "VariableDeclaration",
+            "src": "530:20:7",
+            "constant": false,
+            "functionSelector": "824b76c2",
+            "mutability": "mutable",
+            "name": "Undead",
+            "nameLocation": "544:6:7",
+            "scope": 21334,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_undead_$21271",
+              "typeString": "contract undead"
+            },
+            "typeName": {
+              "id": 21290,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 21289,
+                "name": "undead",
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 21271,
+                "src": "530:6:7"
+              },
+              "referencedDeclaration": 21271,
+              "src": "530:6:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_undead_$21271",
+                "typeString": "contract undead"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 21297,
+            "nodeType": "VariableDeclaration",
+            "src": "560:66:7",
+            "constant": false,
+            "mutability": "mutable",
+            "name": "want",
+            "nameLocation": "568:4:7",
+            "scope": 21334,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bytes20",
+              "typeString": "bytes20"
+            },
+            "typeName": {
+              "id": 21292,
+              "name": "bytes20",
+              "nodeType": "ElementaryTypeName",
+              "src": "560:7:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes20",
+                "typeString": "bytes20"
+              }
+            },
+            "value": {
+              "arguments": [
+                {
+                  "hexValue": "307830303030303030303030303030303030303030303030303030303030303030303030304231303044",
+                  "id": 21295,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "583:42:7",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "value": "0x00000000000000000000000000000000000B100D"
+                }
+              ],
+              "expression": {
+                "argumentTypes": [
+                  {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                ],
+                "id": 21294,
+                "isConstant": false,
+                "isLValue": false,
+                "isPure": true,
+                "lValueRequested": false,
+                "nodeType": "ElementaryTypeNameExpression",
+                "src": "575:7:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_type$_t_bytes20_$",
+                  "typeString": "type(bytes20)"
+                },
+                "typeName": {
+                  "id": 21293,
+                  "name": "bytes20",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "575:7:7",
+                  "typeDescriptions": {}
+                }
+              },
+              "id": 21296,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "typeConversion",
+              "lValueRequested": false,
+              "names": [],
+              "nodeType": "FunctionCall",
+              "src": "575:51:7",
+              "tryCall": false,
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes20",
+                "typeString": "bytes20"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 21303,
+            "nodeType": "VariableDeclaration",
+            "src": "636:66:7",
+            "constant": false,
+            "mutability": "mutable",
+            "name": "mask",
+            "nameLocation": "644:4:7",
+            "scope": 21334,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bytes20",
+              "typeString": "bytes20"
+            },
+            "typeName": {
+              "id": 21298,
+              "name": "bytes20",
+              "nodeType": "ElementaryTypeName",
+              "src": "636:7:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes20",
+                "typeString": "bytes20"
+              }
+            },
+            "value": {
+              "arguments": [
+                {
+                  "hexValue": "307830303030303030303030303030303030303030303030303030303030303030303030306646464666",
+                  "id": 21301,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "659:42:7",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "value": "0x00000000000000000000000000000000000fFFFf"
+                }
+              ],
+              "expression": {
+                "argumentTypes": [
+                  {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                ],
+                "id": 21300,
+                "isConstant": false,
+                "isLValue": false,
+                "isPure": true,
+                "lValueRequested": false,
+                "nodeType": "ElementaryTypeNameExpression",
+                "src": "651:7:7",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_type$_t_bytes20_$",
+                  "typeString": "type(bytes20)"
+                },
+                "typeName": {
+                  "id": 21299,
+                  "name": "bytes20",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "651:7:7",
+                  "typeDescriptions": {}
+                }
+              },
+              "id": 21302,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "typeConversion",
+              "lValueRequested": false,
+              "names": [],
+              "nodeType": "FunctionCall",
+              "src": "651:51:7",
+              "tryCall": false,
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes20",
+                "typeString": "bytes20"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 21306,
+            "nodeType": "VariableDeclaration",
+            "src": "712:22:7",
+            "constant": false,
+            "mutability": "mutable",
+            "name": "wordLength",
+            "nameLocation": "720:10:7",
+            "scope": 21334,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 21304,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "712:7:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "hexValue": "35",
+              "id": 21305,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "733:1:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_5_by_1",
+                "typeString": "int_const 5"
+              },
+              "value": "5"
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 21320,
+            "nodeType": "FunctionDefinition",
+            "src": "741:86:7",
+            "body": {
+              "id": 21319,
+              "nodeType": "Block",
+              "src": "765:62:7",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 21317,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 21309,
+                      "name": "Undead",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 21291,
+                      "src": "776:6:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_undead_$21271",
+                        "typeString": "contract undead"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [
+                        {
+                          "id": 21313,
+                          "name": "want",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 21297,
+                          "src": "796:4:7",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bytes20",
+                            "typeString": "bytes20"
+                          }
+                        },
+                        {
+                          "id": 21314,
+                          "name": "mask",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 21303,
+                          "src": "802:4:7",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bytes20",
+                            "typeString": "bytes20"
+                          }
+                        },
+                        {
+                          "id": 21315,
+                          "name": "wordLength",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 21306,
+                          "src": "809:10:7",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_bytes20",
+                            "typeString": "bytes20"
+                          },
+                          {
+                            "typeIdentifier": "t_bytes20",
+                            "typeString": "bytes20"
+                          },
+                          {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        ],
+                        "id": 21312,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "NewExpression",
+                        "src": "785:10:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_creation_nonpayable$_t_bytes20_$_t_bytes20_$_t_uint256_$returns$_t_contract$_undead_$21271_$",
+                          "typeString": "function (bytes20,bytes20,uint256) returns (contract undead)"
+                        },
+                        "typeName": {
+                          "id": 21311,
+                          "nodeType": "UserDefinedTypeName",
+                          "pathNode": {
+                            "id": 21310,
+                            "name": "undead",
+                            "nodeType": "IdentifierPath",
+                            "referencedDeclaration": 21271,
+                            "src": "789:6:7"
+                          },
+                          "referencedDeclaration": 21271,
+                          "src": "789:6:7",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_undead_$21271",
+                            "typeString": "contract undead"
+                          }
+                        }
+                      },
+                      "id": 21316,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "785:35:7",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_undead_$21271",
+                        "typeString": "contract undead"
+                      }
+                    },
+                    "src": "776:44:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_undead_$21271",
+                      "typeString": "contract undead"
+                    }
+                  },
+                  "id": 21318,
+                  "nodeType": "ExpressionStatement",
+                  "src": "776:44:7"
+                }
+              ]
+            },
+            "functionSelector": "0a9254e4",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setUp",
+            "nameLocation": "750:5:7",
+            "parameters": {
+              "id": 21307,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "755:2:7"
+            },
+            "returnParameters": {
+              "id": 21308,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "765:0:7"
+            },
+            "scope": 21334,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 21333,
+            "nodeType": "FunctionDefinition",
+            "src": "833:101:7",
+            "body": {
+              "id": 21332,
+              "nodeType": "Block",
+              "src": "890:44:7",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 21330,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 21325,
+                      "name": "contrect",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 21323,
+                      "src": "900:8:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [
+                        {
+                          "id": 21328,
+                          "name": "Undead",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 21291,
+                          "src": "919:6:7",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_undead_$21271",
+                            "typeString": "contract undead"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_contract$_undead_$21271",
+                            "typeString": "contract undead"
+                          }
+                        ],
+                        "id": 21327,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "ElementaryTypeNameExpression",
+                        "src": "911:7:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_address_$",
+                          "typeString": "type(address)"
+                        },
+                        "typeName": {
+                          "id": 21326,
+                          "name": "address",
+                          "nodeType": "ElementaryTypeName",
+                          "src": "911:7:7",
+                          "typeDescriptions": {}
+                        }
+                      },
+                      "id": 21329,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "911:15:7",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "src": "900:26:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "id": 21331,
+                  "nodeType": "ExpressionStatement",
+                  "src": "900:26:7"
+                }
+              ]
+            },
+            "functionSelector": "6db35145",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "testaddress",
+            "nameLocation": "842:11:7",
+            "parameters": {
+              "id": 21321,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "853:2:7"
+            },
+            "returnParameters": {
+              "id": 21324,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 21323,
+                  "mutability": "mutable",
+                  "name": "contrect",
+                  "nameLocation": "880:8:7",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 21333,
+                  "src": "872:16:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 21322,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "872:7:7",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "871:18:7"
+            },
+            "scope": 21334,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "TestUndead",
+        "contractDependencies": [
+          21271
+        ],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          21334
+        ],
+        "name": "TestUndead",
+        "nameLocation": "513:10:7",
+        "scope": 21335,
+        "usedErrors": []
+      }
+    ]
+  },
+  "id": 7
+}

@@ -1,0 +1,786 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_addr",
+          "type": "address"
+        }
+      ],
+      "name": "deadOrAlive",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "deadOrAlive(address)": "81d9632b"
+  },
+  "ast": {
+    "absolutePath": "test/Contract.t.sol",
+    "id": 21329,
+    "exportedSymbols": {
+      "DSTest": [
+        1786
+      ],
+      "IUnDeAD": [
+        21282
+      ],
+      "Mortal": [
+        21030
+      ],
+      "Mortall": [
+        21328
+      ],
+      "Script": [
+        1818
+      ],
+      "StdStorage": [
+        3235
+      ],
+      "Test": [
+        3137
+      ],
+      "TestUnDeAD": [
+        21314
+      ],
+      "Vm": [
+        4894
+      ],
+      "console": [
+        12958
+      ],
+      "console2": [
+        21022
+      ],
+      "stdError": [
+        3207
+      ],
+      "stdMath": [
+        4472
+      ],
+      "stdStorage": [
+        4325
+      ],
+      "undead": [
+        21271
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "0:1529:7",
+    "nodes": [
+      {
+        "id": 21273,
+        "nodeType": "PragmaDirective",
+        "src": "0:23:7",
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 21274,
+        "nodeType": "PragmaDirective",
+        "src": "24:33:7",
+        "literals": [
+          "experimental",
+          "ABIEncoderV2"
+        ]
+      },
+      {
+        "id": 21275,
+        "nodeType": "ImportDirective",
+        "src": "58:39:7",
+        "absolutePath": "lib/forge-std/src/Test.sol",
+        "file": "../lib/forge-std/src/Test.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 21329,
+        "sourceUnit": 4473,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 21276,
+        "nodeType": "ImportDirective",
+        "src": "98:24:7",
+        "absolutePath": "src/UnDeAD.sol",
+        "file": "src/UnDeAD.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 21329,
+        "sourceUnit": 21272,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 21282,
+        "nodeType": "ContractDefinition",
+        "src": "124:71:7",
+        "nodes": [
+          {
+            "id": 21281,
+            "nodeType": "FunctionDefinition",
+            "src": "148:45:7",
+            "functionSelector": "81d9632b",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "deadOrAlive",
+            "nameLocation": "157:11:7",
+            "parameters": {
+              "id": 21279,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 21278,
+                  "mutability": "mutable",
+                  "name": "_addr",
+                  "nameLocation": "177:5:7",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 21281,
+                  "src": "169:13:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 21277,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "169:7:7",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "168:15:7"
+            },
+            "returnParameters": {
+              "id": 21280,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "192:0:7"
+            },
+            "scope": 21282,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IUnDeAD",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          21282
+        ],
+        "name": "IUnDeAD",
+        "nameLocation": "134:7:7",
+        "scope": 21329,
+        "usedErrors": []
+      },
+      {
+        "id": 21314,
+        "nodeType": "ContractDefinition",
+        "src": "285:262:7",
+        "nodes": [
+          {
+            "id": 21287,
+            "nodeType": "VariableDeclaration",
+            "src": "319:21:7",
+            "constant": false,
+            "functionSelector": "f1eae25c",
+            "mutability": "mutable",
+            "name": "mortal",
+            "nameLocation": "334:6:7",
+            "scope": 21314,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_Mortall_$21328",
+              "typeString": "contract Mortall"
+            },
+            "typeName": {
+              "id": 21286,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 21285,
+                "name": "Mortall",
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 21328,
+                "src": "319:7:7"
+              },
+              "referencedDeclaration": 21328,
+              "src": "319:7:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Mortall_$21328",
+                "typeString": "contract Mortall"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 21290,
+            "nodeType": "VariableDeclaration",
+            "src": "344:59:7",
+            "constant": false,
+            "mutability": "mutable",
+            "name": "undead",
+            "nameLocation": "352:6:7",
+            "scope": 21314,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 21288,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "344:7:7",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": {
+              "hexValue": "307838423841443631376531463935663033633937316542316531393946446638424266413332313234",
+              "id": 21289,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "361:42:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              },
+              "value": "0x8B8AD617e1F95f03c971eB1e199FDf8BBfA32124"
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 21313,
+            "nodeType": "FunctionDefinition",
+            "src": "409:136:7",
+            "body": {
+              "id": 21312,
+              "nodeType": "Block",
+              "src": "452:93:7",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 21300,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 21295,
+                      "name": "mortal",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 21287,
+                      "src": "462:6:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_Mortall_$21328",
+                        "typeString": "contract Mortall"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "id": 21298,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "NewExpression",
+                        "src": "471:11:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_Mortall_$21328_$",
+                          "typeString": "function () returns (contract Mortall)"
+                        },
+                        "typeName": {
+                          "id": 21297,
+                          "nodeType": "UserDefinedTypeName",
+                          "pathNode": {
+                            "id": 21296,
+                            "name": "Mortall",
+                            "nodeType": "IdentifierPath",
+                            "referencedDeclaration": 21328,
+                            "src": "475:7:7"
+                          },
+                          "referencedDeclaration": 21328,
+                          "src": "475:7:7",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_Mortall_$21328",
+                            "typeString": "contract Mortall"
+                          }
+                        }
+                      },
+                      "id": 21299,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "471:13:7",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_Mortall_$21328",
+                        "typeString": "contract Mortall"
+                      }
+                    },
+                    "src": "462:22:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_Mortall_$21328",
+                      "typeString": "contract Mortall"
+                    }
+                  },
+                  "id": 21301,
+                  "nodeType": "ExpressionStatement",
+                  "src": "462:22:7"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "id": 21308,
+                            "name": "mortal",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 21287,
+                            "src": "530:6:7",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_Mortall_$21328",
+                              "typeString": "contract Mortall"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_contract$_Mortall_$21328",
+                              "typeString": "contract Mortall"
+                            }
+                          ],
+                          "id": 21307,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "nodeType": "ElementaryTypeNameExpression",
+                          "src": "522:7:7",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_address_$",
+                            "typeString": "type(address)"
+                          },
+                          "typeName": {
+                            "id": 21306,
+                            "name": "address",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "522:7:7",
+                            "typeDescriptions": {}
+                          }
+                        },
+                        "id": 21309,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "522:15:7",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "arguments": [
+                          {
+                            "id": 21303,
+                            "name": "undead",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 21290,
+                            "src": "502:6:7",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          ],
+                          "id": 21302,
+                          "name": "IUnDeAD",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 21282,
+                          "src": "494:7:7",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_contract$_IUnDeAD_$21282_$",
+                            "typeString": "type(contract IUnDeAD)"
+                          }
+                        },
+                        "id": 21304,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "494:15:7",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_IUnDeAD_$21282",
+                          "typeString": "contract IUnDeAD"
+                        }
+                      },
+                      "id": 21305,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "deadOrAlive",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 21281,
+                      "src": "494:27:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_address_$returns$__$",
+                        "typeString": "function (address) external"
+                      }
+                    },
+                    "id": 21310,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "494:44:7",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 21311,
+                  "nodeType": "ExpressionStatement",
+                  "src": "494:44:7"
+                }
+              ]
+            },
+            "functionSelector": "02e155da",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "testdead",
+            "nameLocation": "418:8:7",
+            "parameters": {
+              "id": 21291,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "426:2:7"
+            },
+            "returnParameters": {
+              "id": 21294,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 21293,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 21313,
+                  "src": "444:7:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 21292,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "444:7:7",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "443:9:7"
+            },
+            "scope": 21314,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 21283,
+              "name": "Test",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 3137,
+              "src": "308:4:7"
+            },
+            "id": 21284,
+            "nodeType": "InheritanceSpecifier",
+            "src": "308:4:7"
+          }
+        ],
+        "canonicalName": "TestUnDeAD",
+        "contractDependencies": [
+          21328
+        ],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          21314,
+          3137,
+          1818,
+          1786
+        ],
+        "name": "TestUnDeAD",
+        "nameLocation": "294:10:7",
+        "scope": 21329,
+        "usedErrors": []
+      },
+      {
+        "id": 21328,
+        "nodeType": "ContractDefinition",
+        "src": "1192:130:7",
+        "nodes": [
+          {
+            "id": 21327,
+            "nodeType": "FunctionDefinition",
+            "src": "1216:103:7",
+            "body": {
+              "id": 21326,
+              "nodeType": "Block",
+              "src": "1275:44:7",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 21324,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 21319,
+                      "name": "_bytes32",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 21317,
+                      "src": "1285:8:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [
+                        {
+                          "hexValue": "307831",
+                          "id": 21322,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1304:5:7",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_8a07523229fdc48491a5e56c76620ba40639eb940e6a2fbdf62b2799b4c86643",
+                            "typeString": "literal_string \"0x1\""
+                          },
+                          "value": "0x1"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_stringliteral_8a07523229fdc48491a5e56c76620ba40639eb940e6a2fbdf62b2799b4c86643",
+                            "typeString": "literal_string \"0x1\""
+                          }
+                        ],
+                        "id": 21321,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "ElementaryTypeNameExpression",
+                        "src": "1296:7:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_bytes32_$",
+                          "typeString": "type(bytes32)"
+                        },
+                        "typeName": {
+                          "id": 21320,
+                          "name": "bytes32",
+                          "nodeType": "ElementaryTypeName",
+                          "src": "1296:7:7",
+                          "typeDescriptions": {}
+                        }
+                      },
+                      "id": 21323,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "1296:14:7",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      }
+                    },
+                    "src": "1285:25:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "id": 21325,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1285:25:7"
+                }
+              ]
+            },
+            "functionSelector": "94555a65",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "deadYet",
+            "nameLocation": "1225:7:7",
+            "parameters": {
+              "id": 21315,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1232:2:7"
+            },
+            "returnParameters": {
+              "id": 21318,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 21317,
+                  "mutability": "mutable",
+                  "name": "_bytes32",
+                  "nameLocation": "1266:8:7",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 21327,
+                  "src": "1258:16:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 21316,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1258:7:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1257:18:7"
+            },
+            "scope": 21328,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Mortall",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          21328
+        ],
+        "name": "Mortall",
+        "nameLocation": "1201:7:7",
+        "scope": 21329,
+        "usedErrors": []
+      }
+    ]
+  },
+  "id": 7
+}

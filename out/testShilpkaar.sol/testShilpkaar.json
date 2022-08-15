@@ -1,0 +1,19 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "test/testShilpkaar.sol",
+    "id": 21338,
+    "exportedSymbols": {},
+    "nodeType": "SourceUnit",
+    "src": "284:0:9"
+  },
+  "id": 9
+}
